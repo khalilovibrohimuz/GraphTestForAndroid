@@ -1,4 +1,4 @@
-package uz.alien_dev.manipulatepixelsforgamedevelopment
+package uz.alien_dev.graphtestforandroid
 
 import org.junit.Test
 

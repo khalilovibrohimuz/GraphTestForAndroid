@@ -1,4 +1,4 @@
-package uz.alien_dev.manipulatepixelsforgamedevelopment
+package uz.alien_dev.graphtestforandroid
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("uz.alien_dev.manipulatepixelsforgamedevelopment", appContext.packageName)
+        assertEquals("uz.alien_dev.graphtestforandroid", appContext.packageName)
     }
 }
