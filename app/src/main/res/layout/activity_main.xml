@@ -1,19 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:paddingHorizontal="54dp"
+    android:gravity="center"
+    tools:context=".activity.ActivityMain">
 
-    <TextView
-        android:id="@+id/sample_text"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/b_canvas"
+        android:text="Canvas test"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:ignore="HardcodedText" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/b_bitmap"
+        android:text="Bitmap test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/b_matrix"
+        android:text="Matrix test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/b_pixel1"
+        android:text="Pixel1 test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/b_pixel2"
+        android:text="Pixel2 test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/b_cpp"
+        android:text="C++ test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/b_surfaceview_vs_view"
+        android:text="SurfaceView vs. View test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
