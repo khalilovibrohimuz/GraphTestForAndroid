@@ -38,14 +38,14 @@ void unlockBitmap(JNIEnv *env) {
     env->DeleteGlobalRef(bitmap);
 }
 
-void pixel(JNIEnv *env, jint x, jint y, jint r, jint g, jint b) {
+void pixel(__attribute__((unused)) JNIEnv *env, jint x, jint y, jint r, jint g, jint b) {
     auto* pixelData = (uint32_t*) pixels;
     uint32_t pixel = 255 << 24 | b << 16 | g << 8 | r;
     pixelData[y * info.stride / 4 + x] = pixel;
 }
 
 
-void gradient(JNIEnv *env) {
+void gradient(__attribute__((unused)) JNIEnv *env) {
     auto* pixelData = (uint32_t*) pixels;
     for (int y = 0; y < info.height; y++) {
         for (int x = 0; x < info.width; x++) {
@@ -67,14 +67,14 @@ void unlockBitmap2(JNIEnv *env) {
     env->DeleteGlobalRef(bitmap2);
 }
 
-void pixel2(JNIEnv *env, jint x, jint y, jint r, jint g, jint b) {
+void pixel2(__attribute__((unused)) JNIEnv *env, jint x, jint y, jint r, jint g, jint b) {
     auto* pixelData = (uint32_t*) pixels2;
     uint32_t pixel = 255 << 24 | b << 16 | g << 8 | r;
     pixelData[y * info.stride / 4 + x] = pixel;
 }
 
 
-void gradient2(JNIEnv *env) {
+void gradient2(__attribute__((unused)) JNIEnv *env) {
     auto* pixelData = (uint32_t*) pixels2;
     for (int y = 0; y < info.height; y++) {
         for (int x = 0; x < info.width; x++) {
