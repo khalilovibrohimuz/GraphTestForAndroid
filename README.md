@@ -57,8 +57,14 @@ Test natijalari bilan quyidagi manzil orqali tanishishingiz mumkin:
 
 - [Barcha test natijalari](https://github.com/khalilovibrohimuz/GraphTestForAndroid/tree/master/tests)
 - [Eng yaxshi test natijasi](https://github.com/khalilovibrohimuz/GraphTestForAndroid/blob/master/tests/1stTest.md)
-<br><hr>
+<br>
 <img src="https://github.com/khalilovibrohimuz/GraphTestForAndroid/blob/master/app/src/main/assets/activity_cpp_release.jpg" alt="Test natijasiga misol" width="360" height="800">
+
+<p float="left">
+  <img src="https://github.com/khalilovibrohimuz/GraphTestForAndroid/blob/master/app/src/main/assets/activity_cpp_release.jpg" alt="Test natijasiga misol" width="360" height="800" />
+  <img src="https://github.com/khalilovibrohimuz/GraphTestForAndroid/blob/master/app/src/main/assets/activity_cpp_release.jpg" alt="Test natijasiga misol" width="360" height="800" /> 
+  <img src="https://github.com/khalilovibrohimuz/GraphTestForAndroid/blob/master/app/src/main/assets/activity_cpp_release.jpg" alt="Test natijasiga misol" width="360" height="800" />
+</p>
 
 
 ## Maslahatlar
