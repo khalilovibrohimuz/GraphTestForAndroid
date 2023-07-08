@@ -58,12 +58,21 @@ Test natijalari bilan quyidagi manzil orqali tanishishingiz mumkin:
 - [Barcha test natijalari](https://github.com/khalilovibrohimuz/GraphTestForAndroid/tree/master/tests)
 - [Eng yaxshi test natijasi](https://github.com/khalilovibrohimuz/GraphTestForAndroid/blob/master/tests/1stTest.md)
 
-<br>
 <div style="display: flex; justify-content: center;">
-  <img src="https://github.com/khalilovibrohimuz/GraphTestForAndroid/blob/master/app/src/main/assets/activity_cpp_release.jpg" alt="Test natijasiga misol" width="180" height="400" style="margin: 0 10px;" />
-  <img src="https://github.com/khalilovibrohimuz/GraphTestForAndroid/blob/master/app/src/main/assets/activity_cpp_release.jpg" alt="Test natijasiga misol" width="180" height="400" style="margin: 0 10px;" /> 
-  <img src="https://github.com/khalilovibrohimuz/GraphTestForAndroid/blob/master/app/src/main/assets/activity_cpp_release.jpg" alt="Test natijasiga misol" width="180" height="400" style="margin: 0 10px;" />
+  <div style="text-align: center; margin: 0 10px;">
+    <img src="https://github.com/khalilovibrohimuz/GraphTestForAndroid/blob/master/app/src/main/assets/activity_cpp_release.jpg" alt="Test natijasiga misol" width="180" height="400" />
+    <p>Rasm 1</p>
+  </div>
+  <div style="text-align: center; margin: 0 10px;">
+    <img src="https://github.com/khalilovibrohimuz/GraphTestForAndroid/blob/master/app/src/main/assets/activity_cpp_release.jpg" alt="Test natijasiga misol" width="180" height="400" />
+    <p>Rasm 2</p>
+  </div>
+  <div style="text-align: center; margin: 0 10px;">
+    <img src="https://github.com/khalilovibrohimuz/GraphTestForAndroid/blob/master/app/src/main/assets/activity_cpp_release.jpg" alt="Test natijasiga misol" width="180" height="400" />
+    <p>Rasm 3</p>
+  </div>
 </div>
+
 
 ## Maslahatlar
 
